@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CLCX | Calculator</title>
+</head>
+
+<body>
+    <div class="cal">
+        <h3 class="cal_text">Calculator</h3>
+        <span id="menu"><i class="fa-solid fa-ellipsis menu_icon" style=" color: #ffa500;"></i></span>
+
+        <div id="menu_box">
+            <span></span>
+            <div id="menu_list">
+                <nav id="back"><i class="fa-solid fa-circle-chevron-left fa-xl"></i>Calculator</nav>
+                <ul style="height: 200px;">
+                    <li><a href="#" class="menu_item">Standerd</a></li>
+                    <li><a href="#" class="menu_item">Scientific</a></li>
+                    <li><a href="#" class="menu_item">Programmer</a></li>
+                    <li><a href="#" class="menu_item">Graphing</a></li>
+                    <li><a href="#" class="menu_item">Date Calculation</a></li>
+                </ul>
+                <nav style=" padding: 10px; background-color: #ffa500; color: white; font-size: 14px;">Converter</nav>
+                <ul>
+                    <li><a href="#" class="menu_item">Currency</a></li>
+                    <li><a href="#" class="menu_item">Volume</a></li>
+                    <li><a href="#" class="menu_item">Length</a></li>
+                    <li><a href="#" class="menu_item">Weight and Mass</a></li>
+                    <li><a href="#" class="menu_item">Temperature</a></li>
+                    <li><a href="#" class="menu_item">Energy</a></li>
+                    <li><a href="#" class="menu_item">Area</a></li>
+                    <li><a href="#" class="menu_item">Speed</a></li>
+                    <li><a href="#" class="menu_item">Time</a></li>
+                    <li><a href="#" class="menu_item">Power</a></li>
+                    <li><a href="#" class="menu_item">Date</a></li>
+                    <li><a href="#" class="menu_item">Pressure</a></li>
+                    <li><a href="#" class="menu_item">Angle</a></li>
+                </ul>
+            </div>
+           
+        </div>
+
+        <input placeholder="0">
+        <div>
+            <button class="btn operator">AC</button>
+            <button class="btn operator">DEL</button>
+            <button class="btn operator">%</button>
+            <button class="btn operator">/</button>
+        </div>
+        <div>
+            <button>9</button>
+            <button>8</button>
+            <button>7</button>
+            <button class="btn operator">*</button>
+        </div>
+        <div>
+            <button>6</button>
+            <button>5</button>
+            <button>4</button>
+            <button class="btn operator">+</button>
+        </div>
+        <div>
+            <button>3</button>
+            <button>2</button>
+            <button>1</button>
+            <button class="btn operator">-</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="btn equal">=</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
